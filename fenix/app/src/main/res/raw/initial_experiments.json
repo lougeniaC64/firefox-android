@@ -11,7 +11,7 @@
       "channel": "release",
       "userFacingName": "Android Pre-Permission Prompt Experiment - Release",
       "userFacingDescription": "If we show the pre-permission prompt to opt in to notifications for new users, then users will be more likely to opt in to receiving notifications.",
-      "isEnrollmentPaused": false,
+      "isEnrollmentPaused": true,
       "isRollout": false,
       "bucketConfig": {
         "randomizationUnit": "nimbus_id",
@@ -51,7 +51,7 @@
       ],
       "targeting": "((is_already_enrolled) || (((android_sdk_version|versionCompare('33') >= 0) && is_first_run) && (app_version|versionCompare('110.!') >= 0)))",
       "startDate": "2023-01-31",
-      "enrollmentEndDate": "2023-02-08",
+      "enrollmentEndDate": "2023-02-22",
       "endDate": null,
       "proposedDuration": 28,
       "proposedEnrollment": 8,
